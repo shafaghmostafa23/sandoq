@@ -1,0 +1,29 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Runtime dependencies
+node_modules/
+
+# User uploads, databases, logs, and backups
+uploads/*
+!uploads/.gitkeep
+**/uploads/*
+backups/
+backup*/
+**/backups/
+**/backup*/
+storage/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Local keys and certificates
+*.pem
+*.key
+
+# Desktop metadata
+.DS_Store
