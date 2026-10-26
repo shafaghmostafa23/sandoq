@@ -1,0 +1,14 @@
+{
+  "name": "mosi-bale-loan-fund",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RTL Persian loan fund Mini App and admin panel for Bale",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
